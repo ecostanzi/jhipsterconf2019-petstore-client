@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "it.intesys.jhipsterconf"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "petstoreclient",
+    "packageName": "it.intesys.jhipsterconf",
+    "packageFolder": "it/intesys/jhipsterconf",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZDVmZmE3Nzg2N2QxZWUxMGZhNWY1ODY5ZjMyOTE4NTc2Y2ZjMDZhMTg0MmZhNjc0YzVlNjI0NzEwZmU1NTJhOWRkZTQ4MWRiMzdlNjc2MDVjZTE3MDc0NjZkYzJhZmY4NGI1NzcyYTEwNjFjNGU0M2U1ZGNiNmZhMWE3OWY1Njg=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
