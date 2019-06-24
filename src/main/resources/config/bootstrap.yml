@@ -17,6 +17,7 @@ spring:
         fail-fast: false # if not in "prod" profile, do not force to use Spring Cloud Config
         format: yaml
         profile-separator: '-'
+        enabled: false
       discovery:
         tags:
           - profile=${spring.profiles.active}
@@ -24,5 +25,7 @@ spring:
           - git-version=${git.commit.id.describe:}
           - git-commit=${git.commit.id.abbrev:}
           - git-branch=${git.branch:}
+        enabled: false
       host: localhost
       port: 8500
+      enabled: false

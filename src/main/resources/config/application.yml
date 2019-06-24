@@ -88,6 +88,7 @@ spring:
       config:
         watch:
           enabled: false
+        enabled: false
   jmx:
     enabled: false
   messages:
