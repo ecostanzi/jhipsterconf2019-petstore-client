@@ -1,9 +1,8 @@
 package it.intesys.jhipsterconf.web.rest;
 
-import it.intesys.jhipsterconf.client.openapi.api.ReadPetsApi;
-import it.intesys.jhipsterconf.client.openapi.model.Pet;
+import it.intesys.jhipsterconf.client.petstore.api.ReadPetsApi;
+import it.intesys.jhipsterconf.client.petstore.model.Pet;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
