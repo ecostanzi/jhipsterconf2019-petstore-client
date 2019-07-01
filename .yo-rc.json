@@ -30,6 +30,12 @@
     "enableTranslation": false,
     "clientPackageManager": "npm",
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "openApiClients": {
+      "petstore": {
+        "spec": "http://localhost:8083/api-first/api.yml",
+        "generatorName": "spring"
+      }
+    }
   }
 }
